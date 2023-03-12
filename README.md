@@ -35,3 +35,8 @@
 
 **Path for the Code Review:**
 1. root\src\test\java\restAssuredPackage\Categories.java (This file contains all the API tests for the acceptance criteria)
+
+6. RestAssuredAPITestingZIPPED: This is a zipped folder for the project in case project corrupts while downloaing.
+7. Pre-Requisites: 
+      a. To review code you need Eclipse IDE and JDK 8+ installed on your system
+      b. Make sure you have browser on your system to check report
