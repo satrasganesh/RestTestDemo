@@ -1,0 +1,8 @@
+<suite name = "restAssuredPackage">
+<test name = "Category Validation Tests">
+<classes>
+<class name = "restAssuredPackage.Categories"/>
+</classes>
+</test>
+
+</suite>
