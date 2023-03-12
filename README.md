@@ -5,16 +5,22 @@
 **Folder Structure:
 1. src:
     **a. src/test/java:** 
+    
       i. Package: restAssuredPackage (Contains Categories class where all the tests are stored )
+      
          - Categories.java (Class File)
-           **Tests for below acceptance criteria:**
+      
+            **Tests for below acceptance criteria:**
+            
                 1. categoryNameVerification() : Validates the Category Name "Carbon credits" 
                 2. canRelistFlagCheck() : Validates the CanRelist Flag to check whether it can be relisted
                 3. promotionsDescriptionVerification() : Validates Description value of Promotion with Name="Gallery"
+            
             **Acceptance Criteria:**
                 1. Name = "Carbon credits"
                 2. CanRelist = true
                 3. The Promotions element with Name = "Gallery" has a Description that contains the text "Good position in category"
+                
 2. POM.xml: Dependencies and supporting plugins
 3. testng.xml: Test Suite
 4. RunTest.bat: Invokes the maven plugin and executes the maven command and launches the report
